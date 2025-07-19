@@ -1,0 +1,11 @@
+ek page jispe ek form ho and usmein mujhse taska ka naam maanga jaaye and task ka duration maanga jaaye with input type date, us task ko humesha by default status milega "incomplete" aur wo task banne ke just baad turant hi neeche dikhne lage
+
+Pending Tasks
+--------
+naam date kitne-din-left status
+
+
+agar date nikal jaaye to :
+Completed Tasks
+----------------
+naam date status

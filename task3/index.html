@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0">
+        <title>TaskTracker</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Gilroy';
+            }
+            html, body {
+                height: 100%;
+                width: 100%;
+            }
+            .main{
+                padding: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+            <form action="">
+                <input type="text"
+                       id="task"
+                       placeholder="Add Task">
+                <input type="date"
+                       id="date"
+                       placeholder="Add Task">
+                <input type="checkbox" name="checkbox" id="checkbox"> <label for="checkbox">Completed</label>
+
+                <button>Add Task</button>
+            </form>
+            <br>
+            <hr>
+            <br>
+            <select name="" id="filter">
+                <option value="all">All</option>
+                <option value="past">past</option>
+                <option value="upcomming">upcomming</option>
+            </select>
+            <br>
+            <div class="taskList">
+
+            </div>
+        </div>
+
+
+        <script src="App.js"></script>
+    </body>
+
+</html>
